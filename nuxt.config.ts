@@ -8,5 +8,13 @@ export default defineNuxtConfig({
     },
   },
   devtools: {enabled: true},
-  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss'],
+  modules: [
+    '@pinia/nuxt',
+    '@nuxtjs/tailwindcss',
+    '@formkit/auto-animate/nuxt',
+    'nuxt-bootstrap-icons',
+  ],
+  bootstrapIcons: {
+    renderType: 'inline',
+  },
 });
