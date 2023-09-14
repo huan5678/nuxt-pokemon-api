@@ -9,12 +9,17 @@ export default defineNuxtConfig({
   },
   devtools: {enabled: true},
   modules: [
-    '@pinia/nuxt',
-    '@nuxtjs/tailwindcss',
     '@formkit/auto-animate/nuxt',
+    '@nuxtjs/device',
+    '@nuxt/image',
+    '@nuxt/ui',
+    '@pinia/nuxt',
     'nuxt-bootstrap-icons',
   ],
   bootstrapIcons: {
     renderType: 'inline',
+  },
+  ui: {
+    global: true,
   },
 });

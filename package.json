@@ -1,6 +1,7 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "proxy": "https://cors-anywhere.herokuapp.com/",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -9,17 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@formkit/auto-animate": "^0.8.0",
     "@nuxt/devtools": "latest",
-    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@nuxt/image": "^1.0.0-rc.1",
+    "@nuxt/ui": "^2.8.1",
+    "@nuxtjs/device": "^3.1.0",
+    "@pinia/nuxt": "^0.4.11",
     "autoprefixer": "^10.4.15",
     "nuxt": "^3.7.2",
+    "nuxt-bootstrap-icons": "^1.0.2",
+    "pinia": "^2.1.6",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3"
-  },
-  "dependencies": {
-    "@formkit/auto-animate": "^0.8.0",
-    "@pinia/nuxt": "^0.4.11",
-    "nuxt-bootstrap-icons": "^1.0.2",
-    "pinia": "^2.1.6"
   }
 }
